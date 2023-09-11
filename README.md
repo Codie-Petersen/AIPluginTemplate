@@ -41,7 +41,7 @@ Before you begin, ensure you have the following requirements:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Codie-Petersen/AIPluginTemplate
    ```
 
 2. Install the required Python packages:
