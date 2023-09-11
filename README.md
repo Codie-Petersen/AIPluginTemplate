@@ -17,6 +17,10 @@ This README provides comprehensive documentation for setting up and using the Te
   - [app.py](#apppy)
   - [run_app.py](#run_apppy)
   - [.env](#env)
+- [Customizing Routes](#customizing-routes)
+  - [Adding Blueprints](#creating-a-new-blueprint-file)
+  - [New Blueprint Example](#new-route-example)
+  - [ChatGPT Access](#modifying-openapiyaml)
 - [Running Your Plugin](#running-your-plugin)
 - [Plugin Usage](#plugin-usage)
 
@@ -124,7 +128,7 @@ This will start your plugin on the specified host and port.
 
 ## Customizing Routes
 
-**Creating a New Blueprint File**
+### Creating a New Blueprint File
 
 To add new functionality to your ChatGPT plugin, it's essential to create custom blueprint files within the "routes" directory. These blueprints help organize and modularize your code. To create a new blueprint, follow these steps:
 
@@ -144,7 +148,7 @@ By following this pattern, you can easily expand your ChatGPT plugin's functiona
 
 ---
 
-**New Route Example**
+### New Route Example
 
 Here's an example "calculator.py" script that would go into the "/plugin/routes" folder:
 
@@ -233,7 +237,7 @@ Now, your "calculator.py" blueprint is registered and accessible within your plu
 
 ---
 
-**Modifying OpenAPI.yaml**
+### Modifying OpenAPI.yaml
 
 Once you have new routes, you need to add definitions to the "openapi.yaml" file so ChatGPT knows how to access and use it. Here's how:
 
