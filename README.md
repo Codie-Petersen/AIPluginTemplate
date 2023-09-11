@@ -19,8 +19,6 @@ This README provides comprehensive documentation for setting up and using the Te
   - [.env](#env)
 - [Running Your Plugin](#running-your-plugin)
 - [Plugin Usage](#plugin-usage)
-- [Contact Information](#contact-information)
-- [License](#license)
 
 ## Introduction
 
